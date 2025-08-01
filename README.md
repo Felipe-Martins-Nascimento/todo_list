@@ -1,16 +1,28 @@
-# flutter_application_1
+# Flutter Todo List
 
-A new Flutter project.
+Este é um projeto simples de **Lista de Tarefas (Todo List)** desenvolvido com **Flutter**, utilizando o pacote **Dio** para requisições HTTP e o **ValueNotifier** para gerenciamento de estado com `AnimatedBuilder`.
 
-## Getting Started
+## Funcionalidades:
 
-This project is a starting point for a Flutter application.
+- Lista de tarefas consumida da API [JSONPlaceholder](https://jsonplaceholder.typicode.com/todos)
+- Marcar e desmarcar tarefas como concluídas
+- Estado persistente durante a navegação com `ValueNotifier`
+- Tema escuro customizado
+- Compatível com Device Preview para simulação em diversos dispositivos
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologias Utilizadas:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter
+- Dart
+- Dio (requisições HTTP)
+- ValueNotifier (gerenciamento de estado)
+- AnimatedBuilder
+- Device Preview (emulação de dispositivos)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Como Executar o Projeto:
+
+# Instale as dependências
+flutter pub get
+
+# Execute o projeto
+flutter run
